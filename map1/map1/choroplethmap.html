@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Choropleth map</title>
+  </head>
+  <body>
+      <div class="banner">
+    <img src="img/banner.jpg" alt="Banner image" /></div>
+
+    <nav class="navbar">
+    <a href="index.html">Basic Map</a>
+    <a href="choroplethmap.html" class="active">Choropleth Map</a>
+    <a href="heatmap.html">Heatmap</a>
+    </nav>
+
+  <div class="title">
+    <h1>Web GIS application</h1></div>
+
+    <div class="container">
+      <button onclick="defaultMapSettings()">Default</button>
+      <div id="map"></div></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-choropleth@1.1.4/dist/choropleth.js"></script>
+    <script src="js/choroplethmap.js"></script>
+  
+  <footer class="footer">
+  © Triin Mägi, Tartu University, 2025
+  </footer>
+
+  </body>
+</html>
